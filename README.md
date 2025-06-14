@@ -1,2 +1,3 @@
-# hp_ai_advanced_training
-hp_ai_advanced_training
+# Enterprise AI Development: Advanced Training
+Enterprise AI Development: Advanced Training
+
