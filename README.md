@@ -32,4 +32,48 @@
 ### RAG
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_rag.ipynb
 
+### 練習題
+以下是一個以文字方式完整描述的練習題指引，最後明確使用 `Update a Row` 模組將分析結果寫回 B 欄：
+
+---
+
+## 📘 練習題：Make.com + Google Sheets + OpenAI 情緒分析流程
+
+**目標**
+
+* 從 Google Sheets 讀取 hp\_comment\_make.xlsx 留言
+* 使用 OpenAI 進行情緒判斷（正向 / 中立 / 負向）
+* 將結果寫回同一Sheets的 B 欄
+
+---
+
+### 1. 前置設定
+
+1. 將 `hp_comment_make.xlsx` 上傳至 Google Drive，並開啟成 Google Sheets，確保 A 欄為留言內容，B 欄空白。
+2. 在 Make.com 建立新 Scenario
+
+---
+
+### 2. 模組串接步驟
+
+#### (1) **Google Sheets – Search Rows**
+
+* 選擇剛才的試算表與工作表（sheet）。
+* 設定篩選條件：`A != ""`，確保只抓取有留言的行數。
+
+#### (2) **OpenAI – Create Chat Completion**
+
+* 模型選 `gpt-4.1`（或可用型號）。
+* Prompt 範例 ↓
+
+  ```
+  你是一個情緒分析機器人，請單純回傳：  
+  正向 / 中立 / 負向  
+  文字內容：
+  ```
+
+#### (3) **Google Sheets – Update a Row**
+
+* 使用上一步的 `Row Number`定義要更新哪一行。
+* 設定僅更新 B 欄的情緒結果。
 
