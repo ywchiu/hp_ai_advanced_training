@@ -28,6 +28,7 @@
 
 ### AI Agent
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_ai_agent.ipynb
+- https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_hp_multi_agent.ipynb
 
 ### RAG
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_rag.ipynb
