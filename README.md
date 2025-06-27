@@ -26,6 +26,9 @@
 ### Make Translation Demo Video
 - https://youtu.be/DwE6z7IbpMg
 
+### AI Agent
+- https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_ai_agent.ipynb
+
 ### RAG
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_rag.ipynb
 
