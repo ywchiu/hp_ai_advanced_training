@@ -24,7 +24,7 @@
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_gemma3_sft.ipynb
 
 ### Make Translation Demo Video
-https://youtu.be/DwE6z7IbpMg
+- https://youtu.be/DwE6z7IbpMg
 
 ### RAG
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_rag.ipynb
