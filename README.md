@@ -2,6 +2,9 @@
 
 ## Day1
 
+### Demo 20260312
+- https://colab.research.google.com/drive/180InGwBBjtoFGBS64fKoouOxRu8-ryxx?usp=sharing
+
 ### Demo 20250626
 - [https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/Demo20250626.ipynb](https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/Demo20250626.ipynb)
 
@@ -17,11 +20,15 @@
 
 ## Day2
 
+### Demo 20260313
+
 ### Demo 20250627
 - https://colab.research.google.com/drive/1f5wrenIqrinkUKf0obfGcLAxoqMZA12N?usp=sharing
 
 ### Gemma 3 Finetune
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_gemma3_sft.ipynb
+
+### Opal Translation Demo Video
 
 ### Make Translation Demo Video
 - https://youtu.be/DwE6z7IbpMg
@@ -38,7 +45,7 @@
 
 ---
 
-## 📘 練習題：Make.com + Google Sheets + OpenAI 情緒分析流程
+## 📘 練習題：Opal + Google Sheets + OpenAI 情緒分析流程
 
 **目標**
 
@@ -51,7 +58,7 @@
 ### 1. 前置設定
 
 1. 將 `hp_comment_make.xlsx` 上傳至 Google Drive，並開啟成 Google Sheets，確保 A 欄為留言內容，B 欄空白。
-2. 在 Make.com 建立新 Scenario
+2. 在 Opal 建立新 Scenario
 
 ---
 
@@ -64,7 +71,7 @@
 
 #### (2) **OpenAI – Create Chat Completion**
 
-* 模型選 `gpt-4.1`（或可用型號）。
+* 模型選 `gpt-5`（或可用型號）。
 * Prompt 範例 ↓
 
   ```
