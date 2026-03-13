@@ -21,6 +21,7 @@
 ## Day2
 
 ### Demo 20260313
+- https://colab.research.google.com/drive/1gFNreZ4rrkl6iwE1h9T3w1YemH3kX7Mt?usp=sharing
 
 ### Demo 20250627
 - https://colab.research.google.com/drive/1f5wrenIqrinkUKf0obfGcLAxoqMZA12N?usp=sharing
@@ -29,6 +30,7 @@
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_gemma3_sft.ipynb
 
 ### Opal Translation Demo Video
+- https://youtu.be/cSEgf-M51Z8
 
 ### Make Translation Demo Video
 - https://youtu.be/DwE6z7IbpMg
