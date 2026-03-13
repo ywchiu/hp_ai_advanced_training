@@ -29,6 +29,9 @@
 ### Gemma 3 Finetune
 - https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_gemma3_sft.ipynb
 
+### Qwen3.5-0.8B Finetune
+- https://colab.research.google.com/github/ywchiu/hp_ai_advanced_training/blob/main/day2_qwen35_sft.ipynb
+
 ### Opal Translation Demo Video
 - https://youtu.be/cSEgf-M51Z8
 
