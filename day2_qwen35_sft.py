@@ -13,7 +13,7 @@ from unsloth import FastLanguageModel
 import torch
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "unsloth/Qwen3.5-0.8B-Instruct",
+    model_name = "unsloth/Qwen3.5-0.8B",
     max_seq_length = 2048,
     load_in_4bit = False,    # Qwen3.5 不建議 4-bit 量化
     dtype = torch.bfloat16,
